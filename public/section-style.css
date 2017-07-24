@@ -44,3 +44,12 @@
   color: #2c3b53;
   font-weight: 100;
 }
+
+.section_feature1 {
+  border: 1px solid red;
+  display: inline;
+}
+
+.section_feature1:before {
+  background-image: url('http://d2zv8c502a1nqm.cloudfront.net/static/images/overview/img_main_feat1_n.jpg');
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SectionFeature from './section_feature';
 
 class Section extends Component {
   constructor(props) {
@@ -16,6 +17,9 @@ class Section extends Component {
           <h1>
             루프펀딩이란
           </h1>
+        </div>
+        <div>
+          <SectionFeature />
         </div>
       </div>
     );
